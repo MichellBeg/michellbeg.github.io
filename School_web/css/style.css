@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+body {
+  font-family: "M PLUS 1p";
+}
+
+a {
+  color: black;
+}
+
+#info {
+  margin-top: 0.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-bottom: 1.5px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+#work {
+  width: 10%;
+}
+
+#name {
+  text-align: right;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav {
+  margin-bottom: 3em;
+  border-bottom: 1px solid grey;
+  b
+}
+
+nav ul {
+  width: 40%;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  margin-left: 0.5em;
+  margin-right: 1.5em;
+  margin-bottom: 0.5em;
+  padding-left: em;
+  text-align: center;
+  background: linear-gradient(transparent 80%, grey 80%);
+  font-size: 14px;
+}
+
+#bot-nav {
+  background-color: ;
+  margin-top: 4em;
+}
+
+.nav-active {
+  background: linear-gradient(transparent 80%, #EF6C00 80%);
+}
+
+.heading {
+  margin-top: 3em;
+  font-family: 'Oswald', sans-serif;
+}
+
+#topPic img {
+  width: 80%;
+  margin-top: 1em;
+  margin-bottom: 1em;s
+}
+
+#fespic {
+  margin: 2em auto 0.5em auto;
+}
+#fespic-ex {
+  margin: 3em 0 ;
+}
+#campusList {
+  padding: 0 200px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 4em;
+}
+
+#campusList img {
+  width: 80%;
+  margin: 1em auto;
+}
+
+#campusList p {
+  font-size: 14px;
+}
+
+#strong {
+  background: linear-gradient(transparent 70%, #EF6C00 70%);
+}
+
+#carouselOption1 {
+  margin-bottom: 2.5em;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h6 {
+  font-family: "Sawarabi Gothic";
+}
+
+.explain {
+  margin-bottom: 3em;
+}
+
+footer {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.head-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-left2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4em;
+}
+
+.fes-explain {
+  margin: 0 4em;
+}
+
+.map {
+  width: 100%;
+  margin: 2em auto;
+}
+
+table {
+  width: 55%;
+  margin: 1em auto;
+}
+
+.td {
+  background-color: lightgrey;
+
+}
