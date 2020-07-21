@@ -1,0 +1,46 @@
+body {
+    font-family: 'Merriweather', serif;
+    width: 100vm;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5vw;
+}
+
+.weather_box {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    position: relative;
+}
+
+.weather_box img {
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.weather_info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    text-align: center;
+    margin-top: 20%;
+    color: #fff;
+}
+
+.weather_info .weather_city {
+    font-size: 3.5vw;
+}
+
+.weather_info .weather_condition {
+    font-size: 4.5vw;
+}
+
+.weather_info .weather_temp {
+    font-size: 3vw;
+}
