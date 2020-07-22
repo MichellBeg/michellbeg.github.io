@@ -48,18 +48,6 @@ header .watch {
     width: 50px;
 }
 
-.btn {
-    text-decoration: none;
-    background: #fff;
-    color: #42A5F5;
-    display: block;
-    width: 140px;
-    line-height: 44px;
-    margin: 40px auto 48px;
-    font-size: 14px;
-    font-weight: bold;
-    border-radius: 4px;
-}
 
 .btn:hover {
     opacity: 0.9;
@@ -68,6 +56,13 @@ header .watch {
 .features img {
     width: 100%;
     border: 1px #98969c solid;
+    box-shadow:
+    0 1.9px 2.5px rgba(0, 0, 0, 0.057),
+    0 5px 6.1px rgba(0, 0, 0, 0.076),
+    0 10.1px 11.4px rgba(0, 0, 0, 0.086),
+    0 19.2px 19.8px rgba(0, 0, 0, 0.092),
+    0 38.4px 34.8px rgba(0, 0, 0, 0.1),
+    0 101px 74px rgba(0, 0, 0, 0.13);
 }
 
 .features>h1 {
@@ -166,8 +161,7 @@ header .watch {
 .skill-set>h1 {
     width: 12%;
     text-align: center;
-    margin: 40px auto 50px auto;
-    padding: 64px;
+    margin: 40px auto 30px auto;
     font-weight: bold;
     position: relative;
     padding: 1.5rem 1rem;
@@ -188,8 +182,69 @@ header .watch {
     backface-visibility: hidden;
 }
 
+.skill-card {
+    max-width: 800px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 0.4em;
+    margin: 0 0 1em;
+  }
+  
+  .skill-card > .card-item {
+    color: #000;
+    background: #fff;
+    padding: 0 2em;
+    flex: 1 0 300px;
+    margin: 1em;
+    border-radius: 5px;
+    line-height: 2em;
+    box-shadow:
+    0 1.9px 2.5px rgba(0, 0, 0, 0.057),
+    0 5px 6.1px rgba(0, 0, 0, 0.076),
+    0 10.1px 11.4px rgba(0, 0, 0, 0.086),
+    0 19.2px 19.8px rgba(0, 0, 0, 0.092),
+    0 38.4px 34.8px rgba(0, 0, 0, 0.1),
+    0 101px 74px rgba(0, 0, 0, 0.13);
+  }
+.card-item p {
+    text-align: justify;
+}
+
+#profile-1 {
+	position: relative;
+	width: 140px;
+	height: 80px;
+	margin: 70px auto;
+	display: block;
+	border-radius: 12px;
+	overflow: hidden;
+	cursor: pointer;
+}
+#profile-1 img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 100%;
+	display: block;
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+#profile-1:hover img:nth-of-type(2) {
+	opacity: 0;
+}
+
+#profile-2 h3 {
+    line-height: 1.5em;
+}
+#profile-2 p {
+    line-height: 1.5em;
+}
+
+
 footer {
-    padding: 64px 0;
+    padding: 32px 0;
     background: #323135;
     color: #98969c;
     text-align: center;
