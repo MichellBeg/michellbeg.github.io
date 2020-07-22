@@ -210,6 +210,15 @@ header .watch {
     text-align: justify;
 }
 
+.a-ward {
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+}
+.a-ward p {
+    line-height: 30px;
+}
+
 #profile-1 {
 	position: relative;
 	width: 140px;
@@ -235,12 +244,10 @@ header .watch {
 	opacity: 0;
 }
 
-#profile-2 h3 {
+#profile-2 h3 ,p{
     line-height: 1.5em;
 }
-#profile-2 p {
-    line-height: 1.5em;
-}
+
 
 
 footer {
